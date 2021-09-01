@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Besley&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+html{
+  min-height: 100%
+}
+body {
+  height: 100%;
+  margin:0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+background: linear-gradient(40deg, #b3FFFF, #FFb3FF);
+}
+.title {
+  font-family: "Besley","Lucida Handwriting";
+  font-weight: bold;
+  font-size: 2em;
+  background: #FFFFFF;
+  border-bottom: 5px solid #b3FFFF;
+}
+.text {
+  font-family: "Roboto","Serif";
+  font-size: 18px;
+  margin: 10px;
+}
+
+li {
+  float: left;
+  margin: 0px;
+  
+}
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 8px;
+}
+
+#example-flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+h2 {
+  font-family: "Besley",serif;
+  text-align: center;
+}
+.intro-image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.intro-image-container > img{
+  border-radius: 100%;
+  height: auto;
+  width: 250px;
+  max-width: 30%;
+  border: 10px solid #FFFFFF;
+}
+
+/*portfolio examples/pages */
+.example{
+  font-family: "Roboto","Serif";
+  font-size: 14px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  padding: 5px 5px 5px 5px;
+  height: 200px;
+  width: 300px;
+  margin: 15px;
+  text-align: center;
+  font-weight: bold;
+}
+#example-flex-container a {
+  text-decoration: none;
+  color: black;
+}
+a:hover .example  {
+  text-decoration: none;
+  color: black;
+  background: #FFb3FF;
+}
+
+/*navigation bar links*/
+.navbar > ul > li > a {
+  display: in-line block;
+  padding: 8px;
+  background-color: #FFb3FF;
+  text-decoration: none;
+  font-family: "Besley",serif;
+  font-weight: bold;
+  margin: 0px;
+  color: black;
+}
+.navbar > ul > li > a:hover{
+  background-color: #FFFFFF;
+}
+
